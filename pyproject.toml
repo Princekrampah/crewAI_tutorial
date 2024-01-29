@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "crewai-course"
+version = "0.1.0"
+description = ""
+authors = ["Princekrampah <jsksprince@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+crewai = "^0.1.32"
+beautifulsoup4 = "^4.12.3"
+duckduckgo-search = "^4.3"
+python-decouple = "^3.8"
+gradio = "^4.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
